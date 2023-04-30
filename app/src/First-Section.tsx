@@ -6,12 +6,18 @@ import chrome from './Image/chrome.png'
 export default function FirstSection() {
   return (
     <div className=" bg-gradient-to-b to-[#0b0c17] from-[#142d1e] pt-5 pl-10 pr-10 pb-20 relative">
-      <header className="pb-12 flex w-full">
+      <header className="pb-12 flex w-full ">
         <h1 className="text-lg text-white font-sans font-bold">
           Front-End
           <i className="fa-solid fa-arrow-up-short-wide text-FirstSHeader text-2xl"></i>
           Developer
         </h1>
+        {"  "}
+        <button className="ml-4 text-white font-semibold border border-FirstSHeader pl-2 pr-2 ">
+          <a href="https://drive.google.com/file/d/1EaDyVprQUocKe0IHPOTn4d85Qkk5dHZv/view">
+            Cv / Resume{" "}
+          </a>
+        </button>
       </header>
       <div className="w-full flex justify-center gap-8 relative">
         <span className=" w-2/5 z-10">
