@@ -13,6 +13,9 @@ export default {
       width:{
         '1/9':'45%',
       },
+      screens: {
+        'Max-S': {'max': '685px'},
+      }
     },
   },
   plugins: [],

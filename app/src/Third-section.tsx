@@ -10,7 +10,7 @@ export default function ThirdSection() {
         <main className="flex w-full flex-wrap gap-9 justify-center">
           {data.map((item) => (
             <div
-              className=" w-1/9 bg-[#15131d]  shadow-[#77b02e] shadow-md"
+              className=" w-1/9 bg-[#15131d]  shadow-[#77b02e] shadow-md Max-S:w-full"
               key={item.id}
             >
               <a href={item.link}>
@@ -30,7 +30,9 @@ export default function ThirdSection() {
                     Technology Used{" "}
                     <i className="fa-solid fa-arrow-down-short-wide text-FirstSHeader"></i>
                   </h4>
-                  <p className='text-white ml-2 font-medium mt-4 pb-2'>{item.languages}</p>
+                  <p className="text-white ml-2 font-medium mt-4 pb-2">
+                    {item.languages}
+                  </p>
                 </div>
               </a>
             </div>

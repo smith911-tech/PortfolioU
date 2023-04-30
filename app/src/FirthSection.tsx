@@ -2,7 +2,6 @@ import github from "./Image/github.png";
 import facebook from "./Image/facebook.png";
 import linkedin from "./Image/linkedin.png";
 import twitter from "./Image/twitter.png";
-// import gmail from "./Image/gmail.png";
 import whatsapp from "./Image/whatsapp.png";
 
 export default function FirthSection() {
@@ -22,13 +21,12 @@ export default function FirthSection() {
           <a href="https://wa.link/gwermi#">
             <img src={whatsapp} alt="" />
           </a>
-          <a href="">
+          <a href="https://github.com/smith911-tech">
             <img src={github} alt="" />
           </a>
           <a href="https://twitter.com/TheRealJoseph01">
             <img src={twitter} alt="" />
           </a>
-          {/* <a href=""><img src={gmail} alt="" /></a> */}
         </div>
       </section>
     );

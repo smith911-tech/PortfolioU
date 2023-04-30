@@ -20,7 +20,7 @@ export default function FirstSection() {
         </button>
       </header>
       <div className="w-full flex justify-center gap-8 relative">
-        <span className=" w-2/5 z-10">
+        <span className=" w-2/5 z-10 Max-S:w-full">
           <h1 className="text-white font-sans font-black text-3xl mt-6 mb-4">
             Welcome To Williams Joseph Portfolio
           </h1>
@@ -29,7 +29,7 @@ export default function FirstSection() {
             Worked On.
           </p>
         </span>
-        <img src={codeimg} alt="" className="ml-2 w-2/5 z-10" />
+        <img src={codeimg} alt="" className="ml-2 w-2/5 z-10 Max-S:hidden" />
       </div>
       <div className="flex justify-center mt-7 gap-10">
         <img src={vsode} alt="" />
