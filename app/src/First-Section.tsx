@@ -1,4 +1,8 @@
 import codeimg from "./Image/Computer.png";
+import github from "./Image/github.png";
+import vsode from "./Image/vsode.png";
+import microsoft from './Image/microsoft.png'
+import chrome from './Image/chrome.png'
 export default function FirstSection() {
   return (
     <div className=" bg-gradient-to-b to-[#0b0c17] from-[#142d1e] pt-5 pl-10 pr-10 pb-20 relative">
@@ -20,6 +24,12 @@ export default function FirstSection() {
           </p>
         </span>
         <img src={codeimg} alt="" className="ml-2 w-2/5 z-10" />
+      </div>
+      <div className="flex justify-center mt-7 gap-10">
+        <img src={vsode} alt="" />
+        <img src={chrome} alt="" />
+        <img src={microsoft} alt="" />
+        <img src={github} alt="" />
       </div>
     </div>
   );
