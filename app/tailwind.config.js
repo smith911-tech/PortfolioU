@@ -9,7 +9,10 @@ export default {
         'FirstSL2': '#0d3018',
         'FirstSHeader': '#d9fe54',
         "SeceondSL1": '#0c0d18',
-      }
+      },
+      width:{
+        '1/9':'45%',
+      },
     },
   },
   plugins: [],
