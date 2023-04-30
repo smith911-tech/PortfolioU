@@ -1,8 +1,7 @@
 import codeimg from "./Image/Computer.png";
-import LineOne from "./Image/LIne-1fS.png";
 export default function FirstSection() {
   return (
-    <div className=" bg-gradient-to-r from-FirstSL1 to-FirstSL2 pt-5 pl-10 pr-10 pb-20 relative">
+    <div className=" bg-gradient-to-b to-[#0b0c17] from-[#142d1e] pt-5 pl-10 pr-10 pb-20 relative">
       <header className="pb-12 flex w-full">
         <h1 className="text-lg text-white font-sans font-bold">
           Front-End
@@ -10,18 +9,18 @@ export default function FirstSection() {
           Developer
         </h1>
       </header>
-        <div className="w-full flex justify-center gap-8 relative">
-          <span className=" w-2/5 z-10">
-            <h1 className="text-white font-sans font-black text-3xl mt-6 mb-4">
-              Welcome To Williams Joseph Portfolio
-            </h1>
-            <p className="text-white font-sans font-medium">
-              I will be Showing Off the Technologies i use and project that i've Worked On
-            </p>
-          </span>
-          <img src={codeimg} alt="" className="ml-2 w-2/5 z-10" />
-        </div>
-        <img src={LineOne} alt="" className="fixed top-1 left-2/4" />
+      <div className="w-full flex justify-center gap-8 relative">
+        <span className=" w-2/5 z-10">
+          <h1 className="text-white font-sans font-black text-3xl mt-6 mb-4">
+            Welcome To Williams Joseph Portfolio
+          </h1>
+          <p className="text-white font-sans font-medium">
+            I will be Showing Off the Technologies i use and project that i've
+            Worked On.
+          </p>
+        </span>
+        <img src={codeimg} alt="" className="ml-2 w-2/5 z-10" />
+      </div>
     </div>
   );
 }
