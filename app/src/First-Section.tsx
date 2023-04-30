@@ -22,7 +22,7 @@ export default function FirstSection() {
           </span>
           <img src={codeimg} alt="" className="ml-2 w-2/5" />
         </div>
-        <img src={LineOne} alt="" className="absolute top-3 "/>
+        <img src={LineOne} alt="" className="absolute top-3 w-2/3 z--10"/>
       </main>
     </div>
   );
