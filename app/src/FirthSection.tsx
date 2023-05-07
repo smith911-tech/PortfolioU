@@ -1,3 +1,8 @@
+import github from "./Image/github.png";
+import facebook from "./Image/facebook.png";
+import linkedin from "./Image/linkedin.png";
+import twitter from "./Image/twitter.png";
+import whatsapp from "./Image/whatsapp.png";
 
 export default function FirthSection() {
     return (
@@ -12,58 +17,25 @@ export default function FirthSection() {
             src="https://gtce.itsvg.in/api?username=TheRealJoseph01&border=false&theme=vision-friendly-dark"
           />
         </div>
-        <h2 className="pt-5 text-white font-bold text-2xl  pb-3 pl-10 pr-10">
+        <h2 className="text-white font-bold text-2xl  pb-3 pl-10 pr-10">
           Contact Me {""}
           <i className="fa-solid fa-address-book text-FirstSHeader text-2xl"></i>
         </h2>
-        <div className="pl-10 pr-10 flex gap-3 justify-center pt-3 pb-3">
-          <a href="https://facebook.com/williams.joseph.56863">
-            <img
-
-              src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white"
-              alt=""
-            />
+        <div className="pl-10 pr-10 bg-[#20241c] flex gap-3 justify-center pt-3 pb-3">
+          <a href="https://web.facebook.com/williams.joseph.56863">
+            <img src={facebook} alt="" />
           </a>
-          <a href="https://instagram.com/therealjoseph001">
-            <img
-
-              src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white"
-              alt=""
-            />
-          </a>
-          <a href="https://linkedin.com/in/joseph-williams-1a7533243">
-            <img
-
-              src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white"
-              alt=""
-            />
-          </a>
-          <a href="https://twitter.com/TheRealJoseph01">
-            <img
-
-              src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white"
-              alt=""
-            />
+          <a href="https://www.linkedin.com/in/joseph-williams-1a7533243/">
+            <img src={linkedin} alt="" />
           </a>
           <a href="https://wa.link/gwermi#">
-            <img
-
-              src="https://img.shields.io/badge/Whatsapp-%28D146.svg?logo=Whatsapp&logoColor=white"
-              alt=""
-            />
+            <img src={whatsapp} alt="" />
           </a>
-          <a href="malito:JosephPay911@gmail.com">
-            <img
-
-              src="https://img.shields.io/badge/Gmail-%23E34F26.svg?logo=Gmail&logoColor=white"
-              alt=""
-            />
+          <a href="https://github.com/smith911-tech">
+            <img src={github} alt="" />
           </a>
-          <a href="malito:JosephPay911@gmail.com">
-            <img
-              src="https://img.shields.io/badge/Github-%2320232a.svg?logo=Github&logoColor=white"
-              alt=""
-            />
+          <a href="https://twitter.com/TheRealJoseph01">
+            <img src={twitter} alt="" />
           </a>
         </div>
       </section>
