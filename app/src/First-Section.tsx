@@ -28,6 +28,10 @@ export default function FirstSection() {
             I will be Showing Off the Technologies i use and project that i've
             Worked On.
           </p>
+          <img
+            className=" mt-5"
+            src="https://readme-typing-svg.herokuapp.com?font=Helvetica&size=28&duration=6500&color=d9fe54&center=true&vCenter=true&width=450&lines=Frontend+Developer...+;Building!+Learning!+%F0%9F%92%A1"
+          />
         </span>
         <img src={codeimg} alt="" className="ml-2 w-2/5 z-10 Max-S:hidden" />
       </div>
