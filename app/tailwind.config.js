@@ -15,6 +15,7 @@ export default {
       },
       screens: {
         'Max-S': {'max': '685px'},
+        "sm320": {"min":"320px"},
       }
     },
   },

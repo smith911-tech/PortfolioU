@@ -5,7 +5,7 @@ export default function SecondSection() {
         My Technical Skills{" "}
         <i className="fa-solid fa-microchip  text-FirstSHeader"></i>
       </h2>
-      <aside className="w-full flex flex-wrap mt-6 justify-center gap-4">
+      <aside className="w-full flex flex-wrap mt-6 justify-normal gap-4 sm:justify-center">
         <img
           src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
           alt=""
