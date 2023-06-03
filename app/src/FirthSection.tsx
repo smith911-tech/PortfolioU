@@ -13,10 +13,16 @@ export default function FirthSection() {
       e.preventDefault();
 
       emailjs
-        .sendForm("service_0v6ksim",  form.current, "emplate_jx0ohji", "xnaW5a7dlypeb8J7X")
+        .sendForm(
+          "service_0v6ksim",
+          "template_jx0ohji",
+          form.current,
+          "xnaW5a7dlypeb8J7X"
+        )
         .then(
           (result) => {
             console.log(result.text);
+            form.current.reset();
           },
           (error) => {
             console.log(error.text);
@@ -30,18 +36,24 @@ export default function FirthSection() {
             Get in touch {""}
             <i className="fa-solid fa-headset text-FirstSHeader text-2xl"></i>
           </h2>
-          <form action="" onSubmit={sendEmail} ref={form} className="flex flex-col gap-3 px-7 pb-6">
+          <form
+            action=""
+            onSubmit={sendEmail}
+            ref={form}
+            className="flex flex-col gap-3 px-7 pb-6"
+          >
             <div className="flex gap-2 Max-S:flex-col">
               <input
                 type="text"
                 className="h-10 w-[50%] outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white Max-S:w-full"
+                name="from_name"
                 placeholder="Name"
               />
               <input
                 type="email"
-                name=""
                 id=""
                 className="h-10 w-[50%] outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white Max-S:w-full"
+                name="from_email"
                 placeholder="Email"
               />
             </div>
@@ -49,6 +61,7 @@ export default function FirthSection() {
               placeholder="Message"
               className="outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white input py-3"
               rows={10}
+              name="message"
             ></textarea>
             <button className="block my-0 mx-auto bg-[#d9fe54] px-7 py-2 font-medium font-sans rounded-md">
               Submit{" "}
