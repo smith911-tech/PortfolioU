@@ -7,7 +7,7 @@ export default function ThirdSection() {
           My Projects {" "}
           <i className="fa-solid fa-list-check  text-FirstSHeader"></i>
         </h2>
-        <main className="flex w-full flex-wrap gap-9 justify-center flex-row-reverse">
+        <main className="flex w-full flex-wrap gap-9 justify-center">
           {data.map((item) => (
             <div
               className=" w-1/9 bg-[#15131d]  shadow-[#77b02e] shadow-md Max-S:w-full"

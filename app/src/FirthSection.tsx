@@ -10,12 +10,15 @@ export default function FirthSection() {
         <div className="pt-5 ">
           <h2 className="text-white font-bold text-2xl  pb-3 pl-10 pr-10">
             Get in touch {""}
-            <i className="fa-brands fa-twitter text-FirstSHeader text-2xl"></i>
+            <i className="fa-solid fa-headset text-FirstSHeader text-2xl"></i>
           </h2>
-          <img
-            className="block mx-auto my-0"
-            src="https://gtce.itsvg.in/api?username=TheRealJoseph01"
-          />
+          <form action="" className="flex flex-col gap-3 px-7">
+            <div className="flex">
+              <input type="text" className="h-8" />
+              <input type="email" name="" id="" className="h-8" />
+            </div>
+            <textarea name="" id=""></textarea>
+          </form>
         </div>
         <h2 className="text-white font-bold text-2xl  pb-3 pl-10 pr-10">
           Contact Me {""}
