@@ -46,6 +46,10 @@ export default function SecondSection() {
           src="https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white"
           alt=""
         />
+        <img
+          src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white"
+          alt=""
+        />
       </aside>
     </section>
   );

@@ -9,7 +9,7 @@ export default function FirthSection() {
       <section className="bg-gradient-to-t to-[#0b0c17] from-[#142d1e] pt-5  pb-5">
         <div className="pt-5 ">
           <h2 className="text-white font-bold text-2xl  pb-3 pl-10 pr-10">
-            Latest Tweet {""}
+            Get in touch {""}
             <i className="fa-brands fa-twitter text-FirstSHeader text-2xl"></i>
           </h2>
           <img
