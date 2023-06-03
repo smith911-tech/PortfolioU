@@ -7,17 +7,29 @@ import whatsapp from "./Image/whatsapp.png";
 export default function FirthSection() {
     return (
       <section className="bg-gradient-to-t to-[#0b0c17] from-[#142d1e] pt-5  pb-5">
-        <div className="pt-5 ">
+        <div className="pt-5 pb-10">
           <h2 className="text-white font-bold text-2xl  pb-3 pl-10 pr-10">
             Get in touch {""}
             <i className="fa-solid fa-headset text-FirstSHeader text-2xl"></i>
           </h2>
           <form action="" className="flex flex-col gap-3 px-7">
-            <div className="flex">
-              <input type="text" className="h-8" />
-              <input type="email" name="" id="" className="h-8" />
+            <div className="flex gap-2">
+              <input
+                type="text"
+                className="h-10 w-[50%] outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white"
+                placeholder="Name"
+              />
+              <input
+                type="email"
+                name=""
+                id=""
+                className="h-10 w-[50%] outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white"
+                placeholder="Email"
+              />
             </div>
-            <textarea name="" id=""></textarea>
+            <textarea
+              className="outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white"
+            ></textarea>
           </form>
         </div>
         <h2 className="text-white font-bold text-2xl  pb-3 pl-10 pr-10">
