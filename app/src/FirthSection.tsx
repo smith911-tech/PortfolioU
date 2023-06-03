@@ -7,17 +7,13 @@ import  { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 export default function FirthSection() {
-    const form = useRef();
+    const form = useRef<any>(null);
 
     const sendEmail = (e: { preventDefault: () => void; }) => {
       e.preventDefault();
 
       emailjs
-        .sendForm(
-          "service_0v6ksim",
-          "emplate_jx0ohji",
-          "YOUR_PUBLIC_KEY"
-        )
+        .sendForm("service_0v6ksim",  form.current, "emplate_jx0ohji", "xnaW5a7dlypeb8J7X")
         .then(
           (result) => {
             console.log(result.text);
@@ -34,7 +30,7 @@ export default function FirthSection() {
             Get in touch {""}
             <i className="fa-solid fa-headset text-FirstSHeader text-2xl"></i>
           </h2>
-          <form action="" ref={form} className="flex flex-col gap-3 px-7 pb-6">
+          <form action="" onSubmit={sendEmail} ref={form} className="flex flex-col gap-3 px-7 pb-6">
             <div className="flex gap-2 Max-S:flex-col">
               <input
                 type="text"
