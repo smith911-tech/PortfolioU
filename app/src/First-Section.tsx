@@ -1,8 +1,8 @@
 import codeimg from "./Image/Computer.png";
-import github from "./Image/github.png";
+import canva from "./Image/canva.png";
 import vsode from "./Image/vsode.png";
 import microsoft from './Image/microsoft.png'
-import chrome from './Image/chrome.png'
+import edge from './Image/edge.png'
 export default function FirstSection() {
   return (
     <div className=" bg-gradient-to-b to-[#0b0c17] from-[#142d1e] pt-5 pl-10 pr-10 pb-20 relative">
@@ -37,9 +37,9 @@ export default function FirstSection() {
       </div>
       <div className="flex justify-center mt-7 gap-10">
         <img src={vsode} alt="" />
-        <img src={chrome} alt="" />
+        <img src={edge} alt="" />
         <img src={microsoft} alt="" />
-        <img src={github} alt="" />
+        <img src={canva} alt="" />
       </div>
     </div>
   );
