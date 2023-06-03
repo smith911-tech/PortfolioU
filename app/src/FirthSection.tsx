@@ -13,17 +13,17 @@ export default function FirthSection() {
             <i className="fa-solid fa-headset text-FirstSHeader text-2xl"></i>
           </h2>
           <form action="" className="flex flex-col gap-3 px-7 pb-6">
-            <div className="flex gap-2">
+            <div className="flex gap-2 Max-S:flex-col">
               <input
                 type="text"
-                className="h-10 w-[50%] outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white"
+                className="h-10 w-[50%] outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white Max-S:w-full"
                 placeholder="Name"
               />
               <input
                 type="email"
                 name=""
                 id=""
-                className="h-10 w-[50%] outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white "
+                className="h-10 w-[50%] outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white Max-S:w-full"
                 placeholder="Email"
               />
             </div>
