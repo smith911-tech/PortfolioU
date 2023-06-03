@@ -46,6 +46,7 @@ export default function FirthSection() {
               <input
                 type="text"
                 className="h-10 w-[50%] outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white Max-S:w-full"
+                required
                 name="from_name"
                 placeholder="Name"
               />
@@ -53,6 +54,7 @@ export default function FirthSection() {
                 type="email"
                 id=""
                 className="h-10 w-[50%] outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white Max-S:w-full"
+                required
                 name="from_email"
                 placeholder="Email"
               />
