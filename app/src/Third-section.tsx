@@ -4,10 +4,10 @@ export default function ThirdSection() {
     return (
       <section className=" bg-[#0b0c17] pl-10 pr-10 pb-10">
         <h2 className="text-white text-xl font-extrabold mb-3">
-          My Projects {""}
+          My Projects {" "}
           <i className="fa-solid fa-list-check  text-FirstSHeader"></i>
         </h2>
-        <main className="flex w-full flex-wrap gap-9 justify-center">
+        <main className="flex w-full flex-wrap gap-9 justify-center flex-col-reverse">
           {data.map((item) => (
             <div
               className=" w-1/9 bg-[#15131d]  shadow-[#77b02e] shadow-md Max-S:w-full"

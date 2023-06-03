@@ -14,7 +14,7 @@ export default function FirthSection() {
           </h2>
           <img
             className="block mx-auto my-0"
-            src="https://gtce.itsvg.in/api?username=TheRealJoseph01&border=false&theme=vision-friendly-dark"
+            src="https://gtce.itsvg.in/api?username=TheRealJoseph01"
           />
         </div>
         <h2 className="text-white font-bold text-2xl  pb-3 pl-10 pr-10">

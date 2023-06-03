@@ -8,29 +8,29 @@ import ShopXimg from './projectimg/ShopX.jpg'
 export default [
     {
         id: 1,
-        img: ShopXimg,
-        title: `ShopX`,
-        desc: `E-commerce Site`,
-        link: "https://shopx0.netlify.app/",
-        languages: `HTML, CSS, React Js, Json `
-    },
-    {
-        id: 2,
-        img: Reluximg,
-        title: `Relux Classic`,
-        desc: `Real Estate`,
-        link: "https://reluxclassic.netlify.app/",
-        languages: `HTML, CSS, React Js, Firebase Auth `
-    },
-    {
-        id: 3,
-        img: webselling,
-        title: `Web Sell`,
-        desc: `Sells websites template`,
-        link: "https://silver-lollipop-b125df.netlify.app/",
+        img: smithcypoimg,
+        title: "SmithC¥PO",
+        desc: "Crypto Company",
+        link: "https://lucent-dango-8017c4.netlify.app/",
         languages: `HTML, CSS, JavaScript`
     },
-    {
+        {
+        id: 2,
+        img: naowagyming,
+        title: "Naowa Gym",
+        desc: "GYM Website",
+        link: "https://clever-paletas-0d10ac.netlify.app/",
+        languages: `HTML, CSS, JavaScript`
+    },
+        {
+        id: 3,
+        img: jngpaperimg,
+        title: "JNG Papers",
+        desc: "Newspaper company",
+        link: "https://glistening-elf-5f6dfa.netlify.app/",
+        languages: `HTML, CSS, JavaScript`
+    },
+        {
         id: 4,
         img : jreparisimg,
         title: `J Repairs`,
@@ -40,26 +40,29 @@ export default [
     },
     {
         id: 5,
-        img: jngpaperimg,
-        title: "JNG Papers",
-        desc: "Newspaper company",
-        link: "https://glistening-elf-5f6dfa.netlify.app/",
+        img: webselling,
+        title: `Web Sell`,
+        desc: `Sells websites template`,
+        link: "https://silver-lollipop-b125df.netlify.app/",
         languages: `HTML, CSS, JavaScript`
     },
-    {
+        {
         id: 6,
-        img: naowagyming,
-        title: "Naowa Gym",
-        desc: "GYM Website",
-        link: "https://clever-paletas-0d10ac.netlify.app/",
-        languages: `HTML, CSS, JavaScript`
+        img: Reluximg,
+        title: `Relux Classic`,
+        desc: `Real Estate`,
+        link: "https://reluxclassic.netlify.app/",
+        languages: `HTML, CSS, React Js, Firebase Auth `
     },
-    {
+        {
         id: 7,
-        img: smithcypoimg,
-        title: "SmithC¥PO",
-        desc: "Crypto Company",
-        link: "https://lucent-dango-8017c4.netlify.app/",
-        languages: `HTML, CSS, JavaScript`
+        img: ShopXimg,
+        title: `ShopX`,
+        desc: `E-commerce Site`,
+        link: "https://shopx0.netlify.app/",
+        languages: `HTML, CSS, React Js, Json `
     }
 ]
+
+
+
