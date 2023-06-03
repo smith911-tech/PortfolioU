@@ -23,13 +23,13 @@ export default function FirthSection() {
                 type="email"
                 name=""
                 id=""
-                className="h-10 w-[50%] outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white"
+                className="h-10 w-[50%] outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white "
                 placeholder="Email"
               />
             </div>
             <textarea
-            placeholder="message"
-              className="outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white input"></textarea>
+            placeholder="Message"
+              className="outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white input py-3" rows={10}></textarea>
           </form>
 
         </div>
