@@ -3,8 +3,31 @@ import facebook from "./Image/facebook.png";
 import linkedin from "./Image/linkedin.png";
 import twitter from "./Image/twitter.png";
 import whatsapp from "./Image/whatsapp.png";
+import  { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function FirthSection() {
+    const form = useRef(String);
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+
+      emailjs
+        .sendForm(
+          "service_0v6ksim",
+          "emplate_jx0ohji",
+          form.current,
+          "YOUR_PUBLIC_KEY"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    };
     return (
       <section className="bg-gradient-to-t to-[#0b0c17] from-[#142d1e] pt-5  pb-5">
         <div className="pt-5 pb-10">
@@ -32,11 +55,11 @@ export default function FirthSection() {
               className="outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white input py-3"
               rows={10}
             ></textarea>
+            <button className="block my-0 mx-auto bg-[#d9fe54] px-7 py-2 font-medium font-sans rounded-md">
+              Submit{" "}
+              <i className="fa-solid fa-paper-plane fa-spin fa-spin-reverse"></i>
+            </button>
           </form>
-          <button className="block my-0 mx-auto bg-[#d9fe54] px-7 py-2 font-medium font-sans rounded-md">
-            Submit{" "}
-            <i className="fa-solid fa-paper-plane fa-spin fa-spin-reverse"></i>
-          </button>
         </div>
         <h2 className="text-white font-bold text-2xl  pb-3 pl-10 pr-10">
           Contact Me {""}
