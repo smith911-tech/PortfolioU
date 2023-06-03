@@ -12,7 +12,7 @@ export default function FirthSection() {
             Get in touch {""}
             <i className="fa-solid fa-headset text-FirstSHeader text-2xl"></i>
           </h2>
-          <form action="" className="flex flex-col gap-3 px-7">
+          <form action="" className="flex flex-col gap-3 px-7 pb-6">
             <div className="flex gap-2">
               <input
                 type="text"
@@ -28,10 +28,15 @@ export default function FirthSection() {
               />
             </div>
             <textarea
-            placeholder="Message"
-              className="outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white input py-3" rows={10}></textarea>
+              placeholder="Message"
+              className="outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white input py-3"
+              rows={10}
+            ></textarea>
           </form>
-
+          <button className="block my-0 mx-auto bg-[#d9fe54] px-7 py-2 font-medium font-sans rounded-md">
+            Submit{" "}
+            <i className="fa-solid fa-paper-plane fa-spin fa-spin-reverse"></i>
+          </button>
         </div>
         <h2 className="text-white font-bold text-2xl  pb-3 pl-10 pr-10">
           Contact Me {""}
