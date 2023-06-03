@@ -28,9 +28,10 @@ export default function FirthSection() {
               />
             </div>
             <textarea
-              className="outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white"
-            ></textarea>
+            placeholder="message"
+              className="outline-none px-2 bg-inherit border-2 border-[#d9fe54] text-white input"></textarea>
           </form>
+
         </div>
         <h2 className="text-white font-bold text-2xl  pb-3 pl-10 pr-10">
           Contact Me {""}
