@@ -9,15 +9,6 @@ function App() {
 
   return (
     <>
-  <div className="container-fluid">
-    <div className="background">
-       <div className="cube"></div>
-       <div className="cube"></div>
-       <div className="cube"></div>
-       <div className="cube"></div>
-      <div className="cube"></div>
-    </div>
-    </div>
       <FirstSection />
       <SecondSection />
       <ThirdSection />
