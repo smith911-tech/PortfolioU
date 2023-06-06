@@ -75,7 +75,7 @@ export default function FirthSection() {
           Contact Me {""}
           <i className="fa-solid fa-address-book text-FirstSHeader text-2xl"></i>
         </h2>
-        <div className="pl-10 pr-10 bg-[#20241c] flex gap-3 justify-center pt-3 pb-3">
+        <div className="pl-10 pr-10 bg-gradient-to-t to-[#142d1e] from-[#0b0c17] flex gap-3 justify-center pt-3 pb-3">
           <a href="https://web.facebook.com/williams.joseph.56863">
             <img src={facebook} alt="" />
           </a>
