@@ -1,13 +1,32 @@
 import data from './Dataforport'
+  import { Swiper, SwiperSlide } from "swiper/react";
+  // import required modules
+  import { Pagination, Autoplay } from "swiper";
+
 export default function ThirdSection() {
-    
+
     return (
       <section className=" bg-[#0b0c17] pl-10 pr-10 pb-10">
         <h2 className="text-white text-xl font-extrabold mb-3">
-          My Projects {" "}
+          My Projects{" "}
           <i className="fa-solid fa-list-check  text-FirstSHeader"></i>
         </h2>
-        <main className="flex w-full flex-wrap gap-9 justify-center">
+        <Swiper
+          slidesPerView={3}
+          spaceBetween={30}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination, Autoplay]}
+          className="mySwiper"
+        >
+          <SwiperSlide>Slide 1</SwiperSlide>
+        </Swiper>
+        {/* <main className="flex w-full flex-wrap gap-9 justify-center">
           {data.map((item) => (
             <div
               className=" w-1/9 bg-[#15131d]  shadow-[#77b02e] shadow-md Max-S:w-full"
@@ -37,7 +56,7 @@ export default function ThirdSection() {
               </a>
             </div>
           ))}
-        </main>
+        </main> */}
         <div></div>
       </section>
     );
