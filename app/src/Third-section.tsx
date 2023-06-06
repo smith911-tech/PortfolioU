@@ -1,8 +1,4 @@
 import data from './Dataforport'
-  import { Swiper, SwiperSlide } from "swiper/react";
-  // import required modules
-  import { Pagination, Autoplay } from "swiper";
-
 export default function ThirdSection() {
 
     return (
@@ -11,25 +7,6 @@ export default function ThirdSection() {
           My Projects{" "}
           <i className="fa-solid fa-list-check  text-FirstSHeader"></i>
         </h2>
-        <Swiper
-          slidesPerView={3}
-          spaceBetween={30}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Pagination, Autoplay]}
-          className="mySwiper"
-        >
-          <SwiperSlide>
-            {data.map((item)=> (<div key={item.id}>
-
-            </div>) )}
-          </SwiperSlide>
-        </Swiper>
         <main className="flex w-full flex-wrap gap-9 justify-center">
           {data.map((item) => (
             <div
