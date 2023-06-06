@@ -24,9 +24,13 @@ export default function ThirdSection() {
           modules={[Pagination, Autoplay]}
           className="mySwiper"
         >
-          <SwiperSlide>Slide 1</SwiperSlide>
+          <SwiperSlide>
+            {data.map((item)=> (<div key={item.id}>
+
+            </div>) )}
+          </SwiperSlide>
         </Swiper>
-        {/* <main className="flex w-full flex-wrap gap-9 justify-center">
+        <main className="flex w-full flex-wrap gap-9 justify-center">
           {data.map((item) => (
             <div
               className=" w-1/9 bg-[#15131d]  shadow-[#77b02e] shadow-md Max-S:w-full"
@@ -56,7 +60,7 @@ export default function ThirdSection() {
               </a>
             </div>
           ))}
-        </main> */}
+        </main>
         <div></div>
       </section>
     );
