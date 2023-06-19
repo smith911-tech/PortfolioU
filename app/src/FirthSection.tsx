@@ -6,6 +6,7 @@ import whatsapp from "./Image/whatsapp.png";
 import  { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
+
 export default function FirthSection() {
     const form = useRef<any>(null);
 
@@ -30,7 +31,7 @@ export default function FirthSection() {
         );
     };
     return (
-      <section className="bg-gradient-to-t to-[#0b0c17] from-[#142d1e] pt-5  pb-5">
+      <section className="bg-gradient-to-t to-[#0b0c17] from-[#142d1e] pt-5  ">
         <div className="pt-5 pb-10">
           <h2 className="text-white font-bold text-2xl  pb-3 pl-10 pr-10">
             Get in touch {""}
@@ -82,7 +83,7 @@ export default function FirthSection() {
           <a href="https://www.linkedin.com/in/joseph-williams-1a7533243/">
             <img src={linkedin} alt="" />
           </a>
-          <a href="https://wa.link/gwermi#">
+          <a href="https://wa.link/ldgui3">
             <img src={whatsapp} alt="" />
           </a>
           <a href="https://github.com/smith911-tech">
