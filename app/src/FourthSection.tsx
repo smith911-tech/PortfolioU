@@ -10,7 +10,7 @@ export default function FourthSection() {
           Hi, I'm Williams Joseph.
           <br />A Frontend developer based in Abuja, Nigeria, I specialize in
           creating Responsive Websites that are user friendly that capture my
-          client or employer's brand. With over One years of experience in the
+          client or employer's brand. With over Three years of experience in the
           industry, I've worked with a diverse range of Developers, On different
           Types of project and i've created alot of personal projects. I became
           fascinated with how technology can be used to solve problems and
