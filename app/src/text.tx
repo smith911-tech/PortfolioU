@@ -1,13 +1,6 @@
-import github from "./Image/github.png";
-import facebook from "./Image/facebook.png";
-import linkedin from "./Image/linkedin.png";
-import twitter from "./Image/twitter.png";
-import whatsapp from "./Image/whatsapp.png";
+https://drive.google.com/file/d/1EaDyVprQUocKe0IHPOTn4d85Qkk5dHZv/view
 import  { useRef } from "react";
 import emailjs from "@emailjs/browser";
-
-
-export default function FirthSection() {
     const form = useRef<any>(null);
 
     const sendEmail = (e: { preventDefault: () => void; }) => {
@@ -30,14 +23,7 @@ export default function FirthSection() {
           }
         );
     };
-    return (
-      <section className="bg-gradient-to-t to-[#0b0c17] from-[#142d1e] pt-5  ">
-        <div className="pt-5 pb-10">
-          <h2 className="text-white font-bold text-2xl  pb-3 pl-10 pr-10">
-            Get in touch {""}
-            <i className="fa-solid fa-headset text-FirstSHeader text-2xl"></i>
-          </h2>
-          <form
+              <form
             action=""
             onSubmit={sendEmail}
             ref={form}
@@ -71,28 +57,4 @@ export default function FirthSection() {
               <i className="fa-solid fa-paper-plane fa-spin fa-spin-reverse"></i>
             </button>
           </form>
-        </div>
-        <h2 className="text-white font-bold text-2xl  pb-3 pl-10 pr-10">
-          Contact Me {""}
-          <i className="fa-solid fa-address-book text-FirstSHeader text-2xl"></i>
-        </h2>
-        <div className="pl-10 pr-10 bg-gradient-to-t to-[#142d1e] from-[#0b0c17] flex gap-3 justify-center pt-3 pb-3">
-          <a href="https://web.facebook.com/williams.joseph.56863">
-            <img src={facebook} alt="" />
-          </a>
-          <a href="https://www.linkedin.com/in/joseph-williams-1a7533243/">
-            <img src={linkedin} alt="" />
-          </a>
-          <a href="https://wa.link/ldgui3">
-            <img src={whatsapp} alt="" />
-          </a>
-          <a href="https://github.com/smith911-tech">
-            <img src={github} alt="" />
-          </a>
-          <a href="https://twitter.com/TheRealJoseph01">
-            <img src={twitter} alt="" />
-          </a>
-        </div>
-      </section>
-    );
-}
+          
