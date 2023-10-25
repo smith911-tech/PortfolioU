@@ -5,7 +5,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        figtree: ['var(--font-figtree)'],
+        "Belanosima": ['Belanosima', "sans-serif"],
+        "Inter": [ 'Inter', "sans-serif"]
       },
         screens: {
       'sm634': '634px',

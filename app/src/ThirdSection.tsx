@@ -15,10 +15,10 @@ import {BiLogoFirebase} from 'react-icons/bi'
 import {BsGit} from 'react-icons/bs'
 export default function ThirdSection() {
   return (
-    <main className="px-5 py-4 sm634:py-5 sm634:px-8 flex flex-col lg1024:flex-row lg1024:items-center mb-20">
+    <main className="px-5 py-4 sm634:py-5 sm634:px-8 flex flex-col lg1024:flex-row lg1024:items-center mb-10">
       <section className=" w-full">
         <p className=" font-semibold sm634:text-[30px] text-2xl text-[white] flex items-center gap-2">
-          Technical Skills
+          Technologies
           <SiSkillshare className="text-[#EB4A4A] animate-spin" />
         </p>
         <LazyLoadImage
@@ -42,10 +42,6 @@ export default function ThirdSection() {
           <div className="bg-gray-800 text-white font-semibold py-1 sm634:w-28 w-[45%] flex gap-2 items-center justify-center rounded-md text-xs lg1024:mb-3">
             <p>JavaScript</p>
             <RiJavascriptLine className="text-xl text-[#ffcb01]" />
-          </div>
-          <div className="bg-gray-800 text-white font-semibold py-1 sm634:w-28 w-[45%] flex gap-2 items-center justify-center rounded-md text-xs lg1024:mb-3">
-            <p>TypeScript</p>
-            <TbBrandTypescript className="text-xl text-blue-400" />
           </div>
           <div className="bg-gray-800 text-white font-semibold py-1 sm634:w-28 w-[45%] flex gap-2 items-center justify-center rounded-md text-xs lg1024:mb-3">
             <p>TypeScript</p>
