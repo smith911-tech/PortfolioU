@@ -4,7 +4,7 @@ import {RiTwitterXFill} from 'react-icons/ri'
 import {RxCode} from 'react-icons/rx'
 export default function Header() {
     return (
-      <header className=" flex justify-between text-white bg-black px-5 py-4 sm634:py-5 sm634:px-8 items-center select-none">
+      <header className=" flex justify-between text-white bg-black px-5 py-4 sm634:py-5 sm634:px-8 items-center select-none sticky w-full top-0 z-50">
         <div className="hidden sm634:flex gap-3 text-sm font-semibold">
           <p>Home</p>
           <p>About</p>

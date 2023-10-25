@@ -11,7 +11,7 @@ export default function SecondSection() {
           I'm Joseph williams
         </h2>
         <p className="text-lg font-medium text-[#EB4A4A]">- Web Developer</p>
-        <p className=" text-xs text-[white] mt-2 font-medium  mb-2">
+        <p className=" text-xs text-[white] mt-2 font-medium  mb-2 leading-5">
           I am a web developer based in Abuja, Nigeria, specializing in the
           creation of responsive and user-friendly websites that effectively
           convey the essence of my clients' or employers' brands. With over a
