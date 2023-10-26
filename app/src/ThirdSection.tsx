@@ -25,7 +25,7 @@ export default function ThirdSection() {
           alt="HackerImage"
           effect="blur"
           src={Typingimage}
-          className=" object-contain w-full select-none -mt-3"
+          className=" object-contain w-full select-none -mt-3 brightness-75"
         />
       </section>
       <section className=" lg1024:w-[40%] w-full">

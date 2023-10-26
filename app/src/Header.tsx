@@ -13,18 +13,18 @@ export default function Header() {
         <div className="text-[#EB4A4A] text-6xl">
           <RxCode />
         </div>
-        <div className="flex gap-4 text-xl">
+        <div className="flex gap-4 text-xl ">
           <a href="https://github.com/smith911-tech" target="blank">
-            <FaGithub />
+            <FaGithub className="hover:text-[#EB4A4A] duration-150" />
           </a>
           <a
             href="https://www.linkedin.com/in/joseph-williams-1a7533243"
             target="blank"
           >
-            <FiLinkedin />
+            <FiLinkedin className="hover:text-[#EB4A4A] duration-150" />
           </a>
           <a href="https://twitter.com/TheRealJoseph01" target="blank">
-            <RiTwitterXFill />
+            <RiTwitterXFill className="hover:text-[#EB4A4A] duration-150" />
           </a>
         </div>
       </header>

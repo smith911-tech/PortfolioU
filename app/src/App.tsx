@@ -1,4 +1,5 @@
 import './App.css'
+import FifthSection from './FifthSection';
 import FourthSection from './FourthSection';
 import Header from './Header';
 import SecondSection from './SecondSection';
@@ -11,6 +12,7 @@ function App() {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
+      <FifthSection />
     </main>
   );
 }
