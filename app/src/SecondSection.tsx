@@ -28,12 +28,12 @@ export default function SecondSection() {
         </a>
       </div>
       <div className=" -mt-10 lg1024:block hidden w-[100%]">
-           <LazyLoadImage
-           alt="HackerImage"
-           effect="blur"
-           src={HackerImage}
-           className="object-cover h-96 w-full select-none"
-         />
+        <LazyLoadImage
+          alt="HackerImage"
+          effect="blur"
+          src={HackerImage}
+          className="object-cover h-96 w-full select-none"
+        />
       </div>
       <div className="hidden sm634:flex w-[50%] ml-3 flex-col items-end lg1024:hidden lg1200:flex lg1200:w-[20%]">
         <p className=" text-[50px] text-[white] flex items-center">
@@ -43,16 +43,14 @@ export default function SecondSection() {
           Years of experience
         </p>
         <p className=" text-[50px] text-[white] flex items-center mt-2">
-          20 <HiOutlinePlusSm className="text-[#EB4A4A]" />
+          90 <HiOutlinePlusSm className="text-[#EB4A4A]" />
         </p>
-        <p className=" text-xs text-white -mt-2 font-medium">
-          Completed projects
-        </p>
+        <p className=" text-xs text-white -mt-2 font-medium">Code Quality</p>
         <p className=" text-[50px] text-[white] flex items-center mt-2">
           34 <HiOutlinePlusSm className="text-[#EB4A4A]" />
         </p>
         <p className=" text-xs text-white -mt-2 font-medium">
-          Contributed Projects
+          Responsive Design
         </p>
       </div>
     </section>

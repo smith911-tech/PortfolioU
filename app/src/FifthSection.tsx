@@ -1,6 +1,6 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import ContactImg from "./assets/email-6370595_1920.jpg";
+import ContactImg from "./assets/mask-2883635_1920.jpg";
 import { MdOutlineContactMail } from "react-icons/md";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
@@ -39,14 +39,16 @@ export default function FifthSection() {
         Contact
         <MdOutlineContactMail className="text-[#EB4A4A] animate-bounce" />
       </p>
-      <section className="flex flex-col mt-3 gap-4">
-        <LazyLoadImage
-          alt="HackerImage"
-          effect="blur"
-          src={ContactImg}
-          className="w-full h-64 object-cover brightness-50 rounded"
-        />
-        <div>
+      <section className="flex flex-col mt-3 gap-4 lg1024:flex-row lg1024:items-center">
+        <div className="lg1024:w-[60%] w-full">
+          <LazyLoadImage
+            alt="HackerImage"
+            effect="blur"
+            src={ContactImg}
+            className="w-full  object-cover brightness-50 rounded lg1024:h-[500px]"
+          />
+        </div>
+        <div className="lg1024:w-[50%]">
           <hr className=" my-5 border-[0.2px] lg1024:mb-11 border-[#ffffff88]" />
           <form onSubmit={sendEmail} ref={form} className="flex flex-col gap-3">
             <div className="flex justify-between flex-col gap-3">
@@ -71,9 +73,13 @@ export default function FifthSection() {
               placeholder="Message"
               className=" bg-transparent border rounded-md border-[#ffffff88] px-2 py-3 text-white"
             ></textarea>
-            <button className=" my-0 mx-auto bg-gray-800 px-7 py-2 font-medium font-sans rounded-md text-white flex items-center gap-3  overflow-hidden">
-              Submit 
-              {isLoading ? <ImSpinner10 className=" animate-spin"/> : <GiCommercialAirplane className="animate-flying-plane" />}
+            <button className=" my-0 mx-auto bg-gray-800 px-7 py-2 font-medium font-sans rounded-md text-white flex items-center gap-3  overflow-hidden select-none outline-none">
+              Submit
+              {isLoading ? (
+                <ImSpinner10 className=" animate-spin" />
+              ) : (
+                <GiCommercialAirplane className="animate-flying-plane" />
+              )}
             </button>
           </form>
         </div>
