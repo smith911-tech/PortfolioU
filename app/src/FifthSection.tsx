@@ -45,7 +45,7 @@ export default function FifthSection() {
             alt="HackerImage"
             effect="blur"
             src={ContactImg}
-            className="w-full  object-cover brightness-50 rounded lg1024:h-[500px]"
+            className="w-full  object-cover brightness-50 rounded lg1024:h-[500px] select-none"
           />
         </div>
         <div className="lg1024:w-[50%]">

@@ -58,7 +58,7 @@ export default function FourthSection(){
               alt="HackerImage"
               effect="blur"
               src={bossky}
-              className="w-full h-64 object-contain"
+              className="w-full h-64 object-contain select-none"
             />
             <div className=" px-4 pb-2 -mt-2">
               <p className="text-white font-Belanosima ">Boossky</p>
