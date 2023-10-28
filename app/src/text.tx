@@ -1,28 +1,5 @@
 https://drive.google.com/file/d/1EaDyVprQUocKe0IHPOTn4d85Qkk5dHZv/view
-import  { useRef } from "react";
-import emailjs from "@emailjs/browser";
-    const form = useRef<any>(null);
 
-    const sendEmail = (e: { preventDefault: () => void; }) => {
-      e.preventDefault();
-
-      emailjs
-        .sendForm(
-          "service_0v6ksim",
-          "template_jx0ohji",
-          form.current,
-          "xnaW5a7dlypeb8J7X"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-            form.current.reset();
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
-    };
               <form
             action=""
             onSubmit={sendEmail}

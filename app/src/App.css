@@ -3,3 +3,21 @@ body{
     border: 0;
     background-color: #000000;
 }
+/* styles.css (or your preferred CSS file) */
+@keyframes flying-plane {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(50px) translateY(-20px);
+    }
+
+    100% {
+        transform: translateX(100px) translateY(0);
+    }
+}
+
+.animate-flying-plane {
+    animation: flying-plane 4s linear infinite;
+}

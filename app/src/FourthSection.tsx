@@ -9,7 +9,7 @@ export default function FourthSection(){
       <main className="px-5 py-4 sm634:py-5 sm634:px-8 mb-12">
         <p className=" font-semibold sm634:text-[30px] text-2xl text-[white] flex items-center gap-2 justify-center">
           Projects
-          <GoProjectSymlink className="text-[#EB4A4A] animate-spin" />
+          <GoProjectSymlink className="text-[#EB4A4A] animate-pulse" />
         </p>
         <p className=" text-xs text-[#EB4A4A] text-center font-Belanosima">
           These are projects that I've personally built and collaborated on:
