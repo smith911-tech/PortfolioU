@@ -37,7 +37,7 @@ export default function SecondSection() {
       </div>
       <div className="hidden sm634:flex w-[50%] ml-3 flex-col items-end lg1024:hidden lg1200:flex lg1200:w-[20%]">
         <p className=" text-[50px] text-[white] flex items-center">
-          1 <HiOutlinePlusSm className="text-[#EB4A4A]" />
+          2 <HiOutlinePlusSm className="text-[#EB4A4A]" />
         </p>
         <p className=" text-xs text-white -mt-2 font-medium">
           Years of experience
