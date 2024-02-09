@@ -1,9 +1,9 @@
 import "./App.css";
-import FifthSection from "./FifthSection";
-import FourthSection from "./FourthSection";
+import ContactSection from "./Contact-Section";
+import ProjectsSection from "./Projects-Section";
 import Header from "./Header";
-import SecondSection from "./SecondSection";
-import ThirdSection from "./ThirdSection";
+import HeroSection from "./HeroSection";
+import StacksSection from "./Stacks-Section";
 import { useState, useEffect, useRef } from "react";
 function App() {
   const [activeSection, setActiveSection] = useState(null);
@@ -41,14 +41,14 @@ function App() {
     <main className=" font-Inter">
       <Header activeSection={activeSection} />
       <div id="Home" ref={homeRef}>
-        <SecondSection />
+        <HeroSection />
       </div>
-      <ThirdSection />
+      <StacksSection />
       <div id="Projects" ref={projectsRef}>
-        <FourthSection />
+        <ProjectsSection />
       </div>
       <div id="Contact" ref={contactRef}>
-        <FifthSection />
+        <ContactSection />
       </div>
     </main>
   );

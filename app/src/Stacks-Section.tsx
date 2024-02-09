@@ -13,7 +13,7 @@ import {
 } from "react-icons/tb";
 import {BiLogoFirebase} from 'react-icons/bi'
 import {BsGit} from 'react-icons/bs'
-export default function ThirdSection() {
+export default function StacksSection() {
   return (
     <main className="px-5 py-4 sm634:py-5 sm634:px-8 flex flex-col lg1024:flex-row lg1024:items-center mb-10">
       <section className=" w-full">

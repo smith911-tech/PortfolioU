@@ -2,7 +2,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import HackerImage from './assets/HackerImage.png'
 import {HiOutlinePlusSm} from 'react-icons/hi'
-export default function SecondSection() {
+export default function HeroSection() {
   return (
     <section className=" mt-5 px-5 py-4 sm634:py-5 sm634:px-8 flex">
       <div className=" w-[100%] lg1200:w-[50%]">
