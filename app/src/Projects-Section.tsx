@@ -79,7 +79,7 @@ export default function ProjectsSection() {
               <p className="text-white font-Belanosima ">Pricing Cal</p>
               <p className="text-[#ffffffb7] text-[12px] mt-2">
                 This is a tool that i built to help indie hacker and startup
-                calculate there pricing for there product, it helps calculate in
+                calculate there pricing for there product/Saas, it helps calculate in
                 monthly and yearly pricing.
               </p>
               <div className="flex mt-6 justify-between">
