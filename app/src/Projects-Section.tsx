@@ -22,7 +22,7 @@ export default function ProjectsSection() {
           Check out my Saas products:
         </p>
         <div className="flex justify-center mt-6 gap-10 flex-wrap">
-          <section className=" w-full min-[500px]:w-[450px] bg-black  rounded-xl shadow-box ">
+          <section className=" w-full min-[500px]:w-[450px] bg-black  rounded-xl shadow-box relative">
             <video autoPlay muted loop className="w-full h-64 object-contain">
               <source src={writecap} type="video/mp4" />
             </video>
@@ -57,6 +57,7 @@ export default function ProjectsSection() {
                 </a>
               </div>
             </div>
+            <div className=" absolute px-3 py-1 bg-[#EB4A4A] rounded-lg shadow-xl top-2 right-1 text-white font-semibold">Sold$</div>
           </section>
         </div>
       </section>
