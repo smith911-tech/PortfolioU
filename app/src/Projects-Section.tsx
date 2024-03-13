@@ -3,12 +3,12 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import bossky from "./assets/bossky.mp4";
 import { GiLaptop } from "react-icons/gi";
 import { LiaLaptopCodeSolid } from "react-icons/lia";
-import FriendVerse from './assets/FriendVerse.mp4';
-import Edovision from './assets/Edovision.mp4'
+import FriendVerse from "./assets/FriendVerse.mp4";
+import Edovision from "./assets/Edovision.mp4";
 import { GrProductHunt } from "react-icons/gr";
 import writecap from "./assets/Writecap.mp4";
 import { FaTools } from "react-icons/fa";
-import PricingCal from './assets/PricingCal.webp'
+import PricingCal from "./assets/PricingCal.webp";
 import { RiGovernmentFill } from "react-icons/ri";
 export default function ProjectsSection() {
   return (
@@ -57,7 +57,9 @@ export default function ProjectsSection() {
                 </a>
               </div>
             </div>
-            <div className=" absolute px-3 py-1 bg-[#EB4A4A] rounded-lg shadow-xl top-2 right-1 text-white font-semibold">Sold$</div>
+            <div className=" absolute px-3 py-1 bg-[#EB4A4A] rounded-lg shadow-xl top-2 right-1 text-white font-semibold">
+              Acquired($)
+            </div>
           </section>
         </div>
       </section>
@@ -70,7 +72,7 @@ export default function ProjectsSection() {
           Tools that I've built:
         </p>
         <div className="flex justify-center mt-6 gap-10 flex-wrap">
-          <section className=" w-full min-[500px]:w-[450px] bg-black  rounded-xl shadow-box ">
+          <section className=" w-full min-[500px]:w-[450px] bg-black  rounded-xl shadow-box relative">
             <img
               src={PricingCal}
               alt="Pricing Cal"
@@ -80,8 +82,8 @@ export default function ProjectsSection() {
               <p className="text-white font-Belanosima ">Pricing Cal</p>
               <p className="text-[#ffffffb7] text-[12px] mt-2">
                 This is a tool that i built to help indie hacker and startup
-                calculate there pricing for there product/Saas, it helps calculate in
-                monthly and yearly pricing.
+                calculate there pricing for there product/Saas, it helps
+                calculate in monthly and yearly pricing.
               </p>
               <div className="flex mt-6 justify-between">
                 <a
@@ -95,6 +97,9 @@ export default function ProjectsSection() {
                   <GiLaptop className="text-[#EB4A4A]" />
                 </a>
               </div>
+            </div>
+            <div className=" absolute px-3 py-1 bg-[#EB4A4A] rounded-lg shadow-xl top-2 right-1 text-white font-semibold">
+              Acquired($) with WriteCap
             </div>
           </section>
         </div>
